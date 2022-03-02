@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Minha primeira aplicação</string>
+    <string name="app_name">Detonando Covid-19</string>
+    <string name="cd_ready_button">Botão de Pronto</string>
+    <string name="cd_home_team">Imagem do time de casa</string>
+    <string name="cd_away_team">Imagem do time visitante</string>
 </resources>
