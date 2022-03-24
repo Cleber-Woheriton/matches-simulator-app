@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.minhaprimeiraaplicao"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:5:5-66
+11-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:7:5-28:19
+14        android:allowBackup="true"
+14-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] /home/cleber/.gradle/caches/transforms-3/adacc4bbdca3c037c01e5031782c646c/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:icon="@mipmap/ic_launcher"
+18-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:9:9-43
+19        android:label="@string/app_name"
+19-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:10:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:11:9-54
+21        android:supportsRtl="true"
+21-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:12:9-35
+22        android:theme="@style/Theme.MinhaPrimeiraAplicação" >
+22-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:13:9-60
+23        <activity
+23-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:14:9-22:20
+24            android:name="com.minhaprimeiraaplicao.ui.MainActivity"
+24-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:15:13-44
+25            android:exported="true" >
+25-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:16:13-36
+26            <intent-filter>
+26-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:18:17-69
+27-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:20:17-77
+29-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:23:9-27:78
+33            android:name="com.minhaprimeiraaplicao.ui.DetailActivity"
+33-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:24:13-46
+34            android:exported="true"
+34-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:25:13-36
+35            android:parentActivityName="com.minhaprimeiraaplicao.ui.MainActivity"
+35-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:26:13-58
+36            android:theme="@style/Theme.MinhaPrimeiraAplicação.NoActionBar" />
+36-->/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/AndroidManifest.xml:27:13-76
+37        <activity
+37-->[com.google.android.gms:play-services-base:17.4.0] /home/cleber/.gradle/caches/transforms-3/abcb476abdc3376aba01bdd819baa03a/transformed/play-services-base-17.4.0/AndroidManifest.xml:23:9-26:75
+38            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+38-->[com.google.android.gms:play-services-base:17.4.0] /home/cleber/.gradle/caches/transforms-3/abcb476abdc3376aba01bdd819baa03a/transformed/play-services-base-17.4.0/AndroidManifest.xml:24:13-79
+39            android:exported="false"
+39-->[com.google.android.gms:play-services-base:17.4.0] /home/cleber/.gradle/caches/transforms-3/abcb476abdc3376aba01bdd819baa03a/transformed/play-services-base-17.4.0/AndroidManifest.xml:25:13-37
+40            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+40-->[com.google.android.gms:play-services-base:17.4.0] /home/cleber/.gradle/caches/transforms-3/abcb476abdc3376aba01bdd819baa03a/transformed/play-services-base-17.4.0/AndroidManifest.xml:26:13-72
+41
+42        <meta-data
+42-->[com.google.android.gms:play-services-basement:17.4.0] /home/cleber/.gradle/caches/transforms-3/9bdb6bd5f0efac33475527705c33343a/transformed/play-services-basement-17.4.0/AndroidManifest.xml:23:9-25:69
+43            android:name="com.google.android.gms.version"
+43-->[com.google.android.gms:play-services-basement:17.4.0] /home/cleber/.gradle/caches/transforms-3/9bdb6bd5f0efac33475527705c33343a/transformed/play-services-basement-17.4.0/AndroidManifest.xml:24:13-58
+44            android:value="@integer/google_play_services_version" />
+44-->[com.google.android.gms:play-services-basement:17.4.0] /home/cleber/.gradle/caches/transforms-3/9bdb6bd5f0efac33475527705c33343a/transformed/play-services-basement-17.4.0/AndroidManifest.xml:25:13-66
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.0.0] /home/cleber/.gradle/caches/transforms-3/0598df94f460c67e853f90789c9d40d1/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.0.0] /home/cleber/.gradle/caches/transforms-3/0598df94f460c67e853f90789c9d40d1/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+48            android:authorities="com.minhaprimeiraaplicao.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.0.0] /home/cleber/.gradle/caches/transforms-3/0598df94f460c67e853f90789c9d40d1/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.0.0] /home/cleber/.gradle/caches/transforms-3/0598df94f460c67e853f90789c9d40d1/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.0.0] /home/cleber/.gradle/caches/transforms-3/0598df94f460c67e853f90789c9d40d1/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.0.0] /home/cleber/.gradle/caches/transforms-3/0598df94f460c67e853f90789c9d40d1/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.0.0] /home/cleber/.gradle/caches/transforms-3/0598df94f460c67e853f90789c9d40d1/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/cleber/.gradle/caches/transforms-3/c4217aea2ca3d9a23241dc893df048d3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/cleber/.gradle/caches/transforms-3/c4217aea2ca3d9a23241dc893df048d3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/cleber/.gradle/caches/transforms-3/c4217aea2ca3d9a23241dc893df048d3/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+56        </provider>
+57    </application>
+58
+59</manifest>

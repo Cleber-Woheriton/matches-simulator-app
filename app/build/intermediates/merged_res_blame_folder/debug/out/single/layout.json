@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_detail.xml",
+        "source": "/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/res/layout/activity_detail.xml"
+    },
+    {
+        "merged": "/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/match_item.xml",
+        "source": "/home/cleber/AndroidStudioProjects/Minhaprimeiraaplicao/app/src/main/res/layout/match_item.xml"
+    }
+]

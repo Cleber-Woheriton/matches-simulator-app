@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#3DDC84</color>
+    <color name="primary_200">#CE93D8</color>
+    <color name="primary_500">#9C27B0</color>
+    <color name="primary_700">#7B1FA2</color>
+    <color name="secondary_200">#80DEEA</color>
+    <color name="secondary_700">#0097A7</color>
+    <color name="secondary_900">#006064</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="margem_default">16dp</dimen>
+    <dimen name="team_image_size">120dp</dimen>
+    <string name="app_name">Detonating Covid-19</string>
+    <string name="cd_away_team">Away team image</string>
+    <string name="cd_home_team">Home team image</string>
+    <string name="cd_ready_button">Ready Button</string>
+    <string name="error_api">Unexpected Error.</string>
+    <string name="txt_versus" translatable="false">X</string>
+    <style name="TextAppearance.App.CollapsingToolbar.Collapsed" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+    <style name="TextAppearance.App.CollapsingToolbar.Expanded" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+    <style name="Theme.MinhaPrimeiraAplicação" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_500</item>
+        <item name="colorPrimaryVariant">@color/primary_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_200</item>
+        <item name="colorSecondaryVariant">@color/secondary_900</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.MinhaPrimeiraAplicação.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>

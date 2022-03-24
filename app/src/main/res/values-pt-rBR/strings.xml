@@ -4,4 +4,5 @@
     <string name="cd_ready_button">Botão de Pronto</string>
     <string name="cd_home_team">Imagem do time de casa</string>
     <string name="cd_away_team">Imagem do time visitante</string>
+    <string name="error_api">Erro inesperado.</string>
 </resources>
